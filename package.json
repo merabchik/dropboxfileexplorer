@@ -1,0 +1,33 @@
+{
+  "name": "fileexplorer",
+  "version": "1.0.0",
+  "description": "save and exploring files with dropbox",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merabchik/dropboxfileexplorer.git"
+  },
+  "keywords": [
+    "dropbox",
+    "nodejs",
+    "file",
+    "explorer",
+    "explorer"
+  ],
+  "author": "MerabChik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merabchik/dropboxfileexplorer/issues"
+  },
+  "homepage": "https://github.com/merabchik/dropboxfileexplorer#readme",
+  "dependencies": {
+    "@types/node": "^11.13.0",
+    "chromium": "^2.1.0",
+    "dropbox": "^4.0.17",
+    "express": "^4.16.4",
+    "typescript": "^3.4.1"
+  }
+}
